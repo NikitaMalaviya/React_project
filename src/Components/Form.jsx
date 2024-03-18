@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Cards from "./Cards"
 import imgphone from "./img/pexels-photo-920382.webp"
+import { Button } from '@mui/material'
 function Form() {
 
     const [data, setdata] = useState({})
@@ -41,7 +42,10 @@ function Form() {
                         <input type="number" placeholder='price' name='price' onChange={handle} /><br />
                         <input type="file" onChange={handle} />
                         <br /><br />
-                        <button onClick={add}>add</button>
+                        <button onClick={add}>add</button><br/>
+                        <Button variant='text'>Click me!</Button>
+                        <Button variant='contained'>Click me!</Button>
+                        <Button variant='outlined'>Click me!</Button>
                     </div>
                     <div className="col-5">
                         <img src={imgphone} className='phoneModel' alt="" />

@@ -1,0 +1,29 @@
+{
+  "post": [
+    {
+      "id": "1",
+      "name": "garvit",
+      "age": 21
+    },
+    {
+      "id": "3",
+      "name": "ram",
+      "age": 21
+    },
+    {
+      "id": "fca5",
+      "name": "kartik",
+      "age": "20"
+    },
+    {
+      "id": "e17d",
+      "name": "nikita",
+      "age": "21"
+    },
+    {
+      "id": "2216",
+      "name": "meet",
+      "age": "22"
+    }
+  ]
+}
